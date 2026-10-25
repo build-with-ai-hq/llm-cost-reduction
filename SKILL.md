@@ -268,7 +268,7 @@ Enable the `semantic_cache` plugin with a vector store (Redis, Weaviate, Qdrant,
 ### Budgets, rate limits and cost attribution
 
 - **Virtual keys** per team, feature or customer, each with `budgets` (e.g. `{"max_limit": 100.00, "reset_duration": "1M"}`), `rate_limit`, and `allowed_models`. Once a budget is used up, further requests are rejected with `402` until it resets; rate limits return `429`. Teams and customers can carry their own budgets above the key.
-- **`x-bf-dim-<name>` headers** (e.g. `x-bf-dim-feature: summarize`) tag a request; the tag flows to logs, OpenTelemetry spans, Prometheus custom labels and Maxim tags.
+- **`x-bf-dim-<name>` headers** (e.g. `x-bf-dim-feature: summarize`) tag a request; the tag flows to logs, OpenTelemetry spans, and Prometheus custom labels.
 - **`bifrost_cost_total`** (USD) on `/metrics`, labeled by `provider`, `model`, `virtual_key_name`, `team_name`, `customer_name`, `routing_rule_name`, `complexity_tier`.
 - **Custom pricing** overrides catalog prices with your negotiated rates so reported cost matches the invoice: https://docs.getbifrost.ai/providers/custom-pricing.md
 

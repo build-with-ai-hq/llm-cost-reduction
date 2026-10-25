@@ -119,7 +119,7 @@ Routing rules can also react to spend: the CEL variable `budget_used` (budget us
 
 ## 4. Bifrost: per-request dimensions
 
-When one virtual key serves several features, tag each request with `x-bf-dim-<name>` headers. Dimensions are forwarded to request logs, OpenTelemetry span attributes, Prometheus custom labels (for configured label names), Datadog, and Maxim tags.
+When one virtual key serves several features, tag each request with `x-bf-dim-<name>` headers. Dimensions are forwarded to request logs, OpenTelemetry span attributes, Prometheus custom labels (for configured label names), and Datadog.
 
 ```python
 resp = client.chat.completions.create(

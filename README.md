@@ -1,3 +1,5 @@
+<img src="assets/banner.png" alt="llm-cost-reduction: Find and cut LLM spend without breaking quality." width="100%">
+
 # llm-cost-reduction
 
 [![skills.sh](https://skills.sh/b/build-with-ai-hq/llm-cost-reduction)](https://skills.sh/build-with-ai-hq/llm-cost-reduction)

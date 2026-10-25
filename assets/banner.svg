@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <radialGradient id="fade" cx="28%" cy="45%" r="85%">
+      <stop offset="0" stop-color="#0A0A0A" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0A0A0A" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="640" fill="#0A0A0A"/>
+  <g stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"><path d="M0 0 V640"/><path d="M40 0 V640"/><path d="M80 0 V640"/><path d="M120 0 V640"/><path d="M160 0 V640"/><path d="M200 0 V640"/><path d="M240 0 V640"/><path d="M280 0 V640"/><path d="M320 0 V640"/><path d="M360 0 V640"/><path d="M400 0 V640"/><path d="M440 0 V640"/><path d="M480 0 V640"/><path d="M520 0 V640"/><path d="M560 0 V640"/><path d="M600 0 V640"/><path d="M640 0 V640"/><path d="M680 0 V640"/><path d="M720 0 V640"/><path d="M760 0 V640"/><path d="M800 0 V640"/><path d="M840 0 V640"/><path d="M880 0 V640"/><path d="M920 0 V640"/><path d="M960 0 V640"/><path d="M1000 0 V640"/><path d="M1040 0 V640"/><path d="M1080 0 V640"/><path d="M1120 0 V640"/><path d="M1160 0 V640"/><path d="M1200 0 V640"/><path d="M1240 0 V640"/><path d="M1280 0 V640"/><path d="M0 0 H1280"/><path d="M0 40 H1280"/><path d="M0 80 H1280"/><path d="M0 120 H1280"/><path d="M0 160 H1280"/><path d="M0 200 H1280"/><path d="M0 240 H1280"/><path d="M0 280 H1280"/><path d="M0 320 H1280"/><path d="M0 360 H1280"/><path d="M0 400 H1280"/><path d="M0 440 H1280"/><path d="M0 480 H1280"/><path d="M0 520 H1280"/><path d="M0 560 H1280"/><path d="M0 600 H1280"/><path d="M0 640 H1280"/></g>
+  <rect width="1280" height="640" fill="url(#fade)"/>
+  <g transform="translate(780 120) scale(16.666666666666668)" fill="none" stroke="#FAFAFA" color="#FAFAFA" stroke-width="0.180" stroke-linecap="round" stroke-linejoin="round" opacity="0.07"><path d="M3 6.5 L9 12.5 L13 8.5 L21 16.5" /><path d="M15 16.5 H21 V10.5" /></g>
+  <g transform="translate(80 58) scale(1.4166666666666667)" fill="none" stroke="#FAFAFA" color="#FAFAFA" stroke-width="1.694" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><path d="M8 6.5 L2.5 12 L8 17.5" /><path d="M16 6.5 L21.5 12 L16 17.5" /><path d="M12 7.5 C12.55 10.4 13.6 11.45 16.5 12 C13.6 12.55 12.55 13.6 12 16.5 C11.45 13.6 10.4 12.55 7.5 12 C10.4 11.45 11.45 10.4 12 7.5 Z" fill="currentColor" stroke="none" /></g>
+  <text x="126" y="83" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="21" fill="#A1A1AA">build-with-ai-hq</text>
+  <rect x="80" y="156" width="148" height="148" rx="28" fill="#111113" stroke="#27272A" stroke-width="1.5"/>
+  <g transform="translate(116 192) scale(3.1666666666666665)" fill="none" stroke="#FAFAFA" color="#FAFAFA" stroke-width="1.074" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><path d="M3 6.5 L9 12.5 L13 8.5 L21 16.5" /><path d="M15 16.5 H21 V10.5" /></g>
+  <text x="78" y="404" font-family="ui-sans-serif, -apple-system, 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="-1.5" fill="#FAFAFA">llm-cost-reduction</text>
+  <text x="80" y="456" font-family="ui-sans-serif, -apple-system, 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" fill="#A1A1AA">Find and cut LLM spend without breaking quality.</text>
+  <rect x="80" y="514" width="761" height="56" rx="12" fill="#141416" stroke="#27272A" stroke-width="1.5"/>
+  <text x="104" y="549" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#71717A">$</text>
+  <text x="132" y="549" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#E4E4E7">npx skills add build-with-ai-hq/llm-cost-reduction</text>
+</svg>

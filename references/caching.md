@@ -13,7 +13,7 @@ Three different caches, often confused:
 ### How the providers differ (check current docs and pricing before relying on numbers)
 
 - **OpenAI:** automatic for prompts above a minimum length (around 1,024 tokens). Cached input tokens are billed at a discount. Reported in `usage.prompt_tokens_details.cached_tokens`. A `prompt_cache_key` request parameter can improve hit rates when many requests share a prefix.
-- **Anthropic:** explicit. Mark cache breakpoints with `cache_control: {"type": "ephemeral"}` on system blocks, tools, or messages (a small number of breakpoints per request; minimum cacheable length applies). Cache writes cost more than normal input, cache reads cost a small fraction; the default TTL is short (minutes) with a longer-TTL option. Reported in `usage.cache_creation_input_tokens` and `usage.cache_read_input_tokens`.
+- **Anthropic:** two modes. Automatic caching: add one top-level `cache_control: {"type": "ephemeral"}` field to the request and the breakpoint is placed on the last cacheable block, moving forward as the conversation grows (simplest for multi-turn chat). Explicit breakpoints: put `cache_control: {"type": "ephemeral"}` on specific system blocks, tools, or messages (a small number of breakpoints per request; minimum cacheable length applies). Cache writes cost more than normal input, cache reads cost a small fraction; the default TTL is short (minutes) with a longer-TTL option. Reported in `usage.cache_creation_input_tokens` and `usage.cache_read_input_tokens`.
 - **Google Gemini:** implicit caching on recent models, plus explicit context caching (a cached-content resource with a TTL and a storage charge) for large shared context.
 - **AWS Bedrock:** prompt caching with cache checkpoints on supported models.
 
